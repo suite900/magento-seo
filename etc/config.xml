@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<!-- 
+	Developer: Cres Jie Labasano
+	Email: cresjie@gmail.com
+	Github: http://github.com/cresjie
+-->
+<config>
+
+	<modules>
+		<S900_Seo>
+			<version>1.0.0.0</version>
+		</S900_Seo>
+	</modules>
+
+	<frontend>
+		<layout>
+            <updates>
+                <s900_seo>
+                    <file>s900_seo.xml</file>
+                </s900_seo>
+            </updates>
+        </layout>
+	</frontend>
+
+	<global>
+
+		<blocks>
+			<s900_seo>
+				<class>S900_Seo_Block</class>
+			</s900_seo>
+		</blocks>
+	</global>
+
+</config>
