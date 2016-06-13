@@ -29,6 +29,12 @@
 				<class>S900_Seo_Block</class>
 			</s900_seo>
 		</blocks>
+
+		<models>
+			<s900_seo>
+				<class>S900_Seo_Model</class>
+			</s900_seo>
+		</models>
 	</global>
 
 </config>
